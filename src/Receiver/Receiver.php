@@ -11,7 +11,6 @@ namespace MarcusCampos\LaravelSocket\Receiver;
 use ElephantIO\Client;
 use ElephantIO\Engine\SocketIO\Version1X;
 use Config;
-use ElephantIO\Exception\ServerConnectionFailureException;
 
 class Receiver
 {
@@ -25,11 +24,6 @@ class Receiver
         $client = new Client(new Version1X($url));
         $client->initialize();
 
-        while (true) {
-            $r = $client->read();
-            dd($r);
-        }
-
-        $client->close();
+        return $client;
     }
 }
