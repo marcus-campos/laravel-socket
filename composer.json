@@ -1,0 +1,22 @@
+{
+    "name": "marcuscampos/laravel-socket",
+    "description": "Socket gun based on Elephant.io for Laravel",
+    "license": "MIT",
+    "keywords": ["socket", "laravel", "react", "elephant", "io"],
+    "homepage": "https://github.com/marcus-campos/laravel-socket",
+    "authors": [
+        {
+            "name": "Marcus Vinícius Campos",
+            "email": "campos.v.marcus@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "MarcusCampos\\LaravelSocket\\": "src/"
+      }
+    },
+    "require": {
+        "wisembly/elephant.io": "^3.2"
+    },
+    "minimum-stability": "dev"
+}
