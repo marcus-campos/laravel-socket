@@ -1,4 +1,4 @@
-# Laravel Socket.io
+# Laravel Socket.io [Abandoned]
 Socket gun based on wisembly/socket.io(socket.io v1.* emitter only) for Laravel.
 
 Instalation
